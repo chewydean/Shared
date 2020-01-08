@@ -61,7 +61,12 @@ function get-conjursecret {
 }
 
 # Ensure self-signed certs are trusted
-set-trustallcerts
+try {
+    set-trustallcerts
+    }
+catch {
+    # ignore if error
+}
 
 # specify conjur host address (and port if not 443)
 $conjurhost = "localhost:8443"
