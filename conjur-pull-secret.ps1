@@ -64,7 +64,7 @@ function get-conjursecret {
 set-trustallcerts
 
 # specify conjur host address (and port if not 443)
-$conjurhost = "proxy:8443"
+$conjurhost = "localhost:8443"
 
 # specify account
 $account = "myConjurAccount"
