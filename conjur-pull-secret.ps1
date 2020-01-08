@@ -76,7 +76,7 @@ $account = "myConjurAccount"
 
 # specify user for account that has access to object with API key
 $user = "host%2FBotApp%2FmyDemoApp"
-$apikey = "244pcqz3xs9k9212k1b821bm66mbwkf7ey3961pnw3ex8ca824xwcmh"
+$apikey = "API-KEY-GOES-HERE"
 
 
 
